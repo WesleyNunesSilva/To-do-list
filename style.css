@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    background: linear-gradient(90deg, rgba(16,196,189,1) 16%, rgba(7,35,117,1) 100%);;
+}
+
+header h1, footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font: normal 25pt arial
+}
+
+.content_button, .tasks {
+    width: 400px;
+    padding: 15px;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(73, 67, 67, 0.692);
+    font: normal 20px arial;
+}
+
+footer {
+   font-size: 16px;
+}
+
+div.content_butto {
+    display: flex;
+    justify-content: center;
+}
+
+input#txtarea{
+border-radius: 5px;
+outline: none;
+padding: 12px;
+border: 2px solid #d1d3d4;
+
+}
+input#txtarea:focus {
+    border-color: rgba(16,196,189,1);
+}
+
+button.add{
+    cursor: pointer;
+    background: rgba(16,196,189,1);
+    border: none;
+    margin: 10px;
+    padding: 13px 30px;
+    text-align: center;
+    color: white;            
+    border-radius: 6px;
+} 
+
+div.tasks{
+    padding: 20px 20px 30px;
+    font-size: 16px;
+}
+
+.taskContainer {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 10px;
+}
+
+:checked + label#taskLabel {
+    text-decoration: line-through;
+    color: gray;
+}
+         
+
+ 
