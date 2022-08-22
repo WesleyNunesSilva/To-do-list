@@ -8,7 +8,7 @@ let jobs = []
 function add() {
 
     if(txt.value.trim().length == 0 ) {
-        alert('Tarefa invalida ou já cadastrada')
+        alert('Tarefa invalida')
     } else {
         addTask()
     }
