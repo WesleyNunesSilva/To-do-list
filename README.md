@@ -4,4 +4,4 @@
 Quando clicado na tarefa, ela aparece como concluida e muda o estilo. E clicando na lixeira ira apagar a tarefa.
 Não é permitido adicionar uma tarefa que contenha somente espaços, ou uma tarefa em branco.
 
-<img src="./Projeto_finalizado.png">
+<img src="./images/Projeto_finalizado.png">
