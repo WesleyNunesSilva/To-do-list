@@ -44,6 +44,7 @@ border: 2px solid #d1d3d4;
 }
 input#txtarea:focus {
     border-color: rgba(16,196,189,1);
+    border-radius: 6px;
 }
 
 button.add{
@@ -52,9 +53,9 @@ button.add{
     border: none;
     margin: 10px;
     padding: 13px 30px;
-    text-align: center;
-    color: white;            
-    border-radius: 6px;
+    color: white;    
+    border-radius: 5px;        
+    
 } 
 
 div.tasks{
@@ -64,14 +65,23 @@ div.tasks{
 
 .taskContainer {
     display: flex;
-    gap: 0.4rem;
     margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-:checked + label#taskLabel {
-    text-decoration: line-through;
+button#deleteTask {
+    border: none;
+    height: 28px;
+    width: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p#taskContent{
+    cursor: pointer;
+}
+.completed  {
     color: gray;
+    text-decoration: line-through;
 }
-         
-
- 
